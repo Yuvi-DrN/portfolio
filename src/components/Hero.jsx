@@ -4,7 +4,7 @@ function Hero() {
        <div style={styles.container}>
          
          <img 
-           src="https://i.imgur.com/8Km9tLL.png" 
+           src="" 
            alt="profile"
            style={styles.image}
          />
