@@ -4,7 +4,7 @@ function Hero() {
        <div style={styles.container}>
          
          <img 
-           src="" 
+           src="https://www.dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2021/01/dummy-profile-pic.jpg" 
            alt="profile"
            style={styles.image}
          />
