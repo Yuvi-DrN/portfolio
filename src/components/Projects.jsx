@@ -5,17 +5,20 @@ function Projects() {
  
        <div style={styles.card}>
          <h3>Weather App</h3>
-         <p>React app that shows real-time weather using API.</p>
+         <p>React app using API to show real-time weather.</p>
+         <a href="#" target="_blank">GitHub</a>
        </div>
  
        <div style={styles.card}>
          <h3>File Organizer</h3>
-         <p>Python script to automatically sort files into folders.</p>
+         <p>Python script that organizes files automatically.</p>
+         <a href="#" target="_blank">GitHub</a>
        </div>
  
        <div style={styles.card}>
          <h3>Student System</h3>
-         <p>C++ console project for managing student data.</p>
+         <p>C++ console-based management system.</p>
+         <a href="#" target="_blank">GitHub</a>
        </div>
      </section>
    );
@@ -27,7 +30,8 @@ function Projects() {
      padding: "20px",
      marginTop: "15px",
      borderRadius: "12px",
-     border: "1px solid #334155"
+     border: "1px solid #334155",
+     transition: "0.3s"
    }
  };
  

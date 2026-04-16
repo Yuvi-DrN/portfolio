@@ -1,10 +1,24 @@
 function Hero() {
    return (
      <section style={styles.hero}>
-       <h1>Hi, I'm Yuvraj</h1>
-       <p>B.Tech CSE Student | Python | C++ | JavaScript Developer</p>
+       <div style={styles.container}>
+         
+         <img 
+           src="https://i.imgur.com/8Km9tLL.png" 
+           alt="profile"
+           style={styles.image}
+         />
  
-       <button style={styles.button}>View Projects</button>
+         <h1 style={styles.title}>Hi, I'm Yuvraj</h1>
+         <p style={styles.subtitle}>
+           B.Tech CSE Student | Python | C++ | JavaScript Developer
+         </p>
+ 
+         <a href="#projects" style={styles.button}>
+           View My Work
+         </a>
+ 
+       </div>
      </section>
    );
  }
@@ -14,15 +28,33 @@ function Hero() {
      textAlign: "center",
      padding: "100px 20px"
    },
+   container: {
+     maxWidth: "600px",
+     margin: "auto"
+   },
+   image: {
+     width: "120px",
+     borderRadius: "50%",
+     marginBottom: "20px",
+     border: "3px solid #38bdf8"
+   },
+   title: {
+     fontSize: "40px",
+     margin: "10px 0",
+     color: "#38bdf8"
+   },
+   subtitle: {
+     color: "#cbd5e1",
+     marginBottom: "20px"
+   },
    button: {
-     marginTop: "20px",
-     padding: "12px 24px",
+     display: "inline-block",
+     padding: "10px 20px",
      background: "#38bdf8",
-     border: "none",
+     color: "#0f172a",
      borderRadius: "8px",
-     cursor: "pointer",
-     fontWeight: "bold",
-     color: "#0f172a"
+     textDecoration: "none",
+     fontWeight: "bold"
    }
  };
  
